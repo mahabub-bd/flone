@@ -1,5 +1,5 @@
 .banner {
-  @include padding(left, 160px);
-  @include padding(right, 160px);
+  @include padding(left, 180px);
+  @include padding(right, 180px);
   background: $bg-banner;
 }
