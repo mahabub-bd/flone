@@ -6,8 +6,9 @@
 }
 
 body {
-  width: 100vw;
+  max-width: 1920px;
   font-family: "Poppins", sans-serif;
+  padding-top: 87px;
 }
 
 nav {
@@ -15,7 +16,7 @@ nav {
   padding-right: 80px;
   font-size: 15px;
   font-weight: 500;
-  line-height: 50px;
+  line-height: 55px;
   letter-spacing: 0.8px;
 }
 
@@ -27,5 +28,113 @@ nav {
   padding-left: 250px;
   padding-right: 250px;
   background: #f0e0ff;
+}
+
+.banner h1 {
+  font-size: 4rem;
+}
+
+.support-area {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.support-wrap {
+  margin-bottom: 30px;
+}
+
+.support-wrap .support-icon {
+  margin-right: 20px;
+}
+
+.support-wrap .support-icon:hover {
+  animation-timing-function: ease-in-out;
+  animation-name: headShake;
+}
+
+@media (min-width: 1900px) {
+  .banner {
+    padding-left: 250px;
+    padding-right: 250px;
+    background: #f0e0ff;
+  }
+  .banner h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .banner {
+    padding-left: 200px;
+    padding-right: 200px;
+    background: #f0e0ff;
+  }
+  .banner h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .banner {
+    padding-left: 180px;
+    padding-right: 180px;
+    background: #f0e0ff;
+  }
+  .banner h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .banner {
+    padding-left: 150px;
+    padding-right: 150px;
+    background: #f0e0ff;
+  }
+  .banner h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .banner {
+    padding-left: 130px;
+    padding-right: 130px;
+    background: #f0e0ff;
+  }
+  .banner h1 {
+    font-size: 2.8rem;
+  }
+}
+
+.product_title {
+  margin-left: 800px;
+  margin-right: 800px;
+}
+
+.title {
+  position: relative;
+}
+
+.title::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100px;
+  background: #000000;
+  top: 50%;
+  left: 30%;
+  transform: translateX(-50%);
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100px;
+  background: #000000;
+  top: 50%;
+  right: 30%;
+  transform: translateX(50%);
 }
 /*# sourceMappingURL=main.css.map */

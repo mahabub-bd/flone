@@ -2,4 +2,7 @@
   @include padding(left, 250px);
   @include padding(right, 250px);
   background: $bg-banner;
+  h1 {
+    font-size: 4rem;
+  }
 }

@@ -6,8 +6,13 @@
 @import "utility";
 
 body {
- width: 100vw;
+  max-width: 1920px;
   font-family: $poppins;
+  padding-top: 87px;
 }
 @import "header";
 @import "banner";
+@import "support-area";
+@import "responsive";
+@import "product";
+

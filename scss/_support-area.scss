@@ -1,0 +1,18 @@
+.support-area {
+  @include padding(top, 100px);
+  @include padding(bottom, 100px);
+}
+
+.support-wrap {
+  @include margin(bottom, 30px);
+
+  .support-icon {
+    @include margin(right, 20px);
+    &:hover {
+      -webkit-animation-timing-function: ease-in-out;
+      animation-timing-function: ease-in-out;
+      -webkit-animation-name: headShake;
+      animation-name: headShake;
+    }
+  }
+}

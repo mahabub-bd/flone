@@ -1,0 +1,28 @@
+.product_title {
+  @include margin(left, 800px);
+  @include margin(right, 800px);
+}
+.title {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background: $black;
+    top: 50%;
+    left: 30%;
+    transform: translateX(-50%);
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background: $black;
+    top: 50%;
+    right: 30%;
+    transform: translateX(50%);
+  }
+}
