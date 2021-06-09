@@ -1,0 +1,12 @@
+// header {
+//   height: 90px;
+//   width: 100%;
+// }
+
+nav {
+  @include padding(left, 80px);
+  @include padding(right, 80px);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 50px;
+}

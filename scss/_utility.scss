@@ -1,0 +1,6 @@
+@mixin margin($position, $value) {
+    margin-#{$position}: $value;
+  }
+@mixin padding($position, $value) {
+    padding-#{$position}: $value;
+  }
