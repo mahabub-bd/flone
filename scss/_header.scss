@@ -6,7 +6,13 @@
 nav {
   @include padding(left, 80px);
   @include padding(right, 80px);
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 500;
   line-height: 50px;
+  letter-spacing: 0.8px;
+}
+.nav-link { 
+  &:hover {
+    color: #a749ff!important;
+  }
 }
