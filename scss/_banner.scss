@@ -1,8 +1,6 @@
 .banner {
-  @include padding(left, 250px);
-  @include padding(right, 250px);
+  @include padding(left, 50px);
+  @include padding(right, 50px);
   background: $bg-banner;
-  h1 {
-    font-size: 4rem;
-  }
+ 
 }

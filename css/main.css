@@ -25,13 +25,9 @@ nav {
 }
 
 .banner {
-  padding-left: 250px;
-  padding-right: 250px;
+  padding-left: 50px;
+  padding-right: 50px;
   background: #f0e0ff;
-}
-
-.banner h1 {
-  font-size: 4rem;
 }
 
 .support-area {
@@ -59,7 +55,7 @@ nav {
     background: #f0e0ff;
   }
   .banner h1 {
-    font-size: 4rem;
+    font-size: 6rem;
   }
 }
 
@@ -96,14 +92,36 @@ nav {
   }
 }
 
-@media (min-width: 800px) {
+@media (max-width: 768px) {
   .banner {
-    padding-left: 130px;
-    padding-right: 130px;
     background: #f0e0ff;
   }
-  .banner h1 {
-    font-size: 2.8rem;
+  .banner {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .title {
+    position: relative;
+  }
+  .title::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background: #000000;
+    top: 50%;
+    left: 20%;
+    transform: translateX(-50%);
+  }
+  .title::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background: #000000;
+    top: 50%;
+    right: 20%;
+    transform: translateX(50%);
   }
 }
 
