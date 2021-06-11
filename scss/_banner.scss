@@ -2,5 +2,8 @@
   @include padding(left, 50px);
   @include padding(right, 50px);
   background: $bg-banner;
- 
+  h1{
+    font-size: 4.5rem;
+  }
+
 }

@@ -1,79 +1,77 @@
 @media (min-width: 1900px) {
-    .banner {
-      padding-left: 250px;
-      padding-right: 250px;
-      background: #f0e0ff;
-    }
-    .banner h1 {
-      font-size: 6rem;
-    }
+  .banner {
+    padding-left: 350px;
+    padding-right: 350px;
+    background: #f0e0ff;
+    margin: 0 auto;
   }
-  
-  @media (min-width: 1600px) {
-    .banner {
-      padding-left: 200px;
-      padding-right: 200px;
-      background: #f0e0ff;
-    }
-    .banner h1 {
-      font-size: 3.5rem;
-    }
+  .banner h1 {
+    font-size: 4.5rem;
   }
-  
-  @media (min-width: 1300px) {
-    .banner {
-      padding-left: 180px;
-      padding-right: 180px;
-      background: #f0e0ff;
-    }
-    .banner h1 {
-      font-size: 3rem;
-    }
+}
+
+@media (min-width: 1600px) {
+  .banner {
+    padding-left: 200px;
+    padding-right: 200px;
+    background: #f0e0ff;
   }
-  
-  @media (min-width: 1000px) {
-    .banner {
-      padding-left: 150px;
-      padding-right: 150px;
-      background: #f0e0ff;
-    }
-    .banner h1 {
-      font-size: 3rem;
-    }
+  .banner h1 {
+    font-size: 3.5rem;
   }
-  @media (max-width: 768px) {
-    .banner {
-     
-      background: #f0e0ff;
-    }
-    .banner  {
-      font-size: 2rem;
-      text-align: center;
-    }
-    .title {
-      position: relative;
-      &::before {
-        content: "";
-        position: absolute;
-        height: 2px;
-        width: 100px;
-        background: $black;
-        top: 50%;
-        left: 20%;
-        transform: translateX(-50%);
-      }
-    
-      &::after {
-        content: "";
-        position: absolute;
-        height: 2px;
-        width: 100px;
-        background: $black;
-        top: 50%;
-        right: 20%;
-        transform: translateX(50%);
-      }
+}
+
+@media (min-width: 1300px) {
+  .banner {
+    padding-left: 180px;
+    padding-right: 180px;
+    background: #f0e0ff;
+  }
+  .banner h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .banner {
+    padding-left: 150px;
+    padding-right: 150px;
+    background: #f0e0ff;
+  }
+  .banner h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 768px) {
+  .banner {
+    background: #f0e0ff;
+  }
+  .banner {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .title {
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      height: 2px;
+      width: 100px;
+      background: $black;
+      top: 50%;
+      left: 1%;
+      transform: translateX(-50%);
     }
 
-
+    &::after {
+      content: "";
+      position: absolute;
+      height: 2px;
+      width: 100px;
+      background: $black;
+      top: 50%;
+      right: 1%;
+      transform: translateX(50%);
+    }
   }
+}
