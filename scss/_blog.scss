@@ -1,0 +1,22 @@
+.blog-item {
+  position: relative;
+  .Blog-image {
+    overflow: hidden;
+   
+
+    img {
+      transition: transform 0.5s ease;
+    }
+    &:hover img {
+        transform: scale(1.2);
+      }
+  }
+
+  .Blog-body {
+    padding: 0 20px;
+    background: #fff;
+    position: absolute;
+    top: 230px;
+    border-radius: 2px;
+  }
+}

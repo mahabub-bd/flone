@@ -179,13 +179,10 @@ nav {
   }
 }
 
-.product_title {
-  margin-left: 800px;
-  margin-right: 800px;
-}
-
 .title {
   position: relative;
+  font-size: 1.5rem;
+  padding: 25px 0;
 }
 
 .title::before {
@@ -195,7 +192,7 @@ nav {
   width: 100px;
   background: #000000;
   top: 50%;
-  left: 30%;
+  left: 35%;
   transform: translateX(-50%);
 }
 
@@ -206,7 +203,35 @@ nav {
   width: 100px;
   background: #000000;
   top: 50%;
-  right: 30%;
+  right: 35%;
   transform: translateX(50%);
+}
+
+.product h5 {
+  font-size: 1rem;
+}
+
+.blog-item {
+  position: relative;
+}
+
+.blog-item .Blog-image {
+  overflow: hidden;
+}
+
+.blog-item .Blog-image img {
+  transition: transform 0.5s ease;
+}
+
+.blog-item .Blog-image:hover img {
+  transform: scale(1.2);
+}
+
+.blog-item .Blog-body {
+  padding: 0 20px;
+  background: #fff;
+  position: absolute;
+  top: 230px;
+  border-radius: 2px;
 }
 /*# sourceMappingURL=main.css.map */

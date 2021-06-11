@@ -1,9 +1,8 @@
-.product_title {
-  @include margin(left, 800px);
-  @include margin(right, 800px);
-}
+
 .title {
   position: relative;
+  font-size: 1.5rem;
+  padding:25px 0;
   &::before {
     content: "";
     position: absolute;
@@ -11,7 +10,7 @@
     width: 100px;
     background: $black;
     top: 50%;
-    left: 30%;
+    left: 35%;
     transform: translateX(-50%);
   }
 
@@ -22,7 +21,12 @@
     width: 100px;
     background: $black;
     top: 50%;
-    right: 30%;
+    right: 35%;
     transform: translateX(50%);
   }
+}
+.product{
+h5 {
+  font-size: 1rem;
+}
 }
