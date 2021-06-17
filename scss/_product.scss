@@ -48,3 +48,10 @@
   display: block;
   background: #f6f6f6;
 }
+
+.fa-star{
+  font-size: 1rem;
+  @include padding(left,2px);
+  @include padding(right,2px);
+  
+}
